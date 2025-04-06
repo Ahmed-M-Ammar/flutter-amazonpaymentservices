@@ -25,7 +25,10 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace 'com.payfort.flutter.payfort_flutter_plugin_example'
+    
+    namespace 'com.amazon.flutter_amazonpaymentservices_example'
+    // namespace 'com.payfort.flutter.payfort_flutter_plugin_example'
+
     compileSdkVersion 34//flutter.compileSdkVersion
 //
     compileOptions {
